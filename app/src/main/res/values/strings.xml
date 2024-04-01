@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">AppCardapio</string>
+    <string name="text_Header">Cardápio do Restaurante</string>
+    <string name="editText_preferences">Digite suas preferências</string>
+    <string name="button_Order">Realizar Pedido</string>
+
+    <!-- Entradas/Appetizer -->
+    <string name="text_Appetizer">Entradas</string>
+    <string name="checkbox_Appetizer1">Coxinha</string>
+    <string name="textView_Appetizer1_price">5.00</string>
+    <string name="textView_Appetizer1_time">10</string>
+    <string name="checkbox_Appetizer2">Pão de queijo</string>
+    <string name="textView_Appetizer2_price">5. 00</string>
+    <string name="textView_Appetizer2_time">10</string>
+    <string name="checkbox_Appetizer3">Mandioca frita</string>
+    <string name="textView_Appetizer3_price">5.00</string>
+    <string name="textView_Appetizer3_time">10</string>
+    <string name="checkbox_Appetizer4">Pastel de queijo</string>
+    <string name="textView_Appetizer4_price">5.00</string>
+    <string name="textView_Appetizer4_time">10</string>
+
+    <!-- Pratos principais -->
+    <string name="text_Main_Dishes">Pratos Principais</string>
+    <string name="checkbox_Main_Dishes1">Feijoada</string>
+    <string name="textView_Dishes1_price">30.00</string>
+    <string name="textView_Dishes1_time">60</string>
+    <string name="checkbox_Main_Dishes2">Strogonoff</string>
+    <string name="textView_Dishes2_price">30.00</string>
+    <string name="textView_Dishes2_time">25</string>
+    <string name="checkbox_Main_Dishes3">Peixe assado</string>
+    <string name="textView_Dishes3_price">30.00</string>
+    <string name="textView_Dishes3_time">50</string>
+    <string name="checkbox_Main_Dishes4">Moqueca de peixe</string>
+    <string name="textView_Dishes4_price">30.00</string>
+    <string name="textView_Dishes4_time">70</string>
+
+    <!--Bebidas -->
+    <string name="text_Drinks">Bebidas</string>
+    <string name="checkbox_Drinks1">Água</string>
+    <string name="textView_Drinks1_price">03.00</string>
+    <string name="textView_Drinks1_time">02</string>
+    <string name="checkbox_Drinks2">Água de Coco</string>
+    <string name="textView_Drinks2_price">05.00</string>
+    <string name="textView_Drinks2_time">05</string>
+    <string name="checkbox_Drinks3">Suco de Manga</string>
+    <string name="textView_Drinks3_price">06.00</string>
+    <string name="textView_Drinks3_time">15</string>
+    <string name="checkbox_Drinks4">Refrigerante Coca 1l</string>
+    <string name="textView_Drinks4_price">12.00</string>
+    <string name="textView_Drinks4_time">02</string>
+    <string name="checkbox_Drinks5">Refrigerante Cajuina São geraldo 1l</string>
+    <string name="textView_Drinks5_price">10.00</string>
+    <string name="textView_Drinks5_time">02</string>
+
+    <!-- Sobremesas -->
+    <string name="text_Desserts">Sobremesas</string>
+    <string name="checkbox_Desserts1">Pudim</string>
+    <string name="textView_Desserts1_price">12.00</string>
+    <string name="textView_Desserts1_time">60</string>
+    <string name="checkbox_Desserts2">Cocada</string>
+    <string name="textView_Desserts2_price">06.00</string>
+    <string name="textView_Desserts2_time">02</string>
+    <string name="checkbox_Desserts3">Quindim</string>
+    <string name="textView_Desserts3_price">07.00</string>
+    <string name="textView_Desserts3_time">60</string>
+    <string name="checkbox_Desserts4">Brigadeiro</string>
+    <string name="textView_Desserts4_price">06.00</string>
+    <string name="textView_Desserts4_time">15</string>
+    <string name="checkbox_Desserts5">Torta de Limão</string>
+    <string name="textView_Desserts5_price">10.00</string>
+    <string name="textView_Desserts5_time">50</string>
+    <string name="checkbox_Desserts6">Pavê de Chocolate</string>
+    <string name="textView_Desserts6_price">10.00</string>
+    <string name="textView_Desserts6_time">60</string>
+    <string name="checkbox_Desserts7">Mousse de Maracujá</string>
+    <string name="textView_Desserts7_price">10.00</string>
+    <string name="textView_Desserts7_time">60</string>
+    <string name="checkbox_Desserts8">Bolo de Cenoura com Chocolate</string>
+    <string name="textView_Desserts8_price">12.00</string>
+    <string name="textView_Desserts8_time">60</string>
+
+</resources>
