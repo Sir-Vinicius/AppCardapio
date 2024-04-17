@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">AppCardapio</string>
+    <string name="text_SubT1">Comida</string>
+    <string name="text_SubT2">Preço</string>
+    <string name="text_SubT3">Tempo de preparo</string>
     <string name="text_Header">Cardápio do Restaurante</string>
     <string name="editText_preferences">Digite suas preferências</string>
     <string name="button_Order">Realizar Pedido</string>

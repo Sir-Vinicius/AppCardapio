@@ -24,6 +24,50 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+        <!-- Subtitulo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_SubT1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:text="@string/text_SubT1"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_SubT2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:text="@string/text_SubT2"
+                android:textColor="@color/green"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_SubT3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:text="@string/text_SubT3"
+                android:textColor="@color/brown"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
         <!-- ___________________Entradas___________________ -->
         <TextView
             android:id="@+id/text_Appetizer"
@@ -56,18 +100,22 @@
                 android:id="@+id/textView_Appetizer1Price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="56dp"
+                android:layout_gravity="center_vertical"
                 android:text="@string/textView_Appetizer1_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:id="@+id/textView_Appetizer1Time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
                 android:text="@string/textView_Appetizer1_time"
                 android:textColor="@color/black" />
         </LinearLayout>
+
         <!-- Entrada 02 -->
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,17 +131,21 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/textView_Appetizer2Price"
+                android:id="@+id/textView_Appetizer2_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Appetizer2_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
+                android:id="@+id/textView_Appetizer2_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:text="@string/textView_Appetizer2_time"
                 android:textColor="@color/black" />
         </LinearLayout>
@@ -117,7 +169,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Appetizer3_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -146,7 +198,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Appetizer4_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -190,7 +242,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Dishes1_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -219,7 +271,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Dishes2_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -248,7 +300,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Dishes3_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -277,7 +329,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Dishes4_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -321,7 +373,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Drinks1_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -350,7 +402,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Drinks2_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -379,7 +431,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Drinks3_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -408,7 +460,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Drinks4_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -437,7 +489,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Drinks5_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -480,7 +532,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts1_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -509,7 +561,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts2_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -538,7 +590,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts3_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -567,7 +619,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts4_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -596,7 +648,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts5_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -625,7 +677,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts6_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -654,7 +706,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts7_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -683,7 +735,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="@string/textView_Desserts8_price"
-                android:textColor="@color/black" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:layout_width="wrap_content"
